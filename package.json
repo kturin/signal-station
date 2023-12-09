@@ -4,13 +4,14 @@
   "license": "MIT",
   "version": "0.0.1",
   "description": "Strongly typed PubSub/EventEmitter library for TypeScript",
-  "main": "dist/index.js",
   "source": "src/signal-station.ts",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "module": "dist/index.es.js",
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build",
-    "playground": "parcel serve demo --dist-dir ./dist-demo --open",
+    "demo": "parcel serve demo --dist-dir ./dist-demo --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
